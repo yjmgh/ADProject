@@ -20,7 +20,7 @@ public class ArrayUtil {
         for(int i = 0; i < arr.length; i++){
             arr[i] = (int)((value + 1) * Math.random()) - (int)((value + 1) * Math.random());
         }
-
+ 
         return arr;
     }
 
